@@ -1,0 +1,188 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-03T16:59:35.172Z",
+        "line": 12,
+        "name": "Hotel booking login page",
+        "description": "",
+        "id": "hotel-booking;hotel-booking-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8682000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser with chrome",
+            "match": {
+              "location": "stepDefin.Stepdefination.open_browser_with_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2450000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "load adaction \"url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"url\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefin.Stepdefination.load_adaction(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1925000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login with valied \"kingKong\" and \"M0B0WA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kingKong\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"M0B0WA\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefin.Stepdefination.login_with_valied_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1462000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate login homepage",
+            "match": {
+              "location": "stepDefin.Stepdefination.i_validate_login_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hotel"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T16:59:50.057Z",
+        "line": 15,
+        "name": "Hotel booking login page",
+        "description": "",
+        "id": "hotel-booking;hotel-booking-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4345000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "open browser with chrome",
+            "match": {
+              "location": "stepDefin.Stepdefination.open_browser_with_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3912000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "load adaction \"url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"url\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefin.Stepdefination.load_adaction(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1398000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "login with valied \"kingKong\" and \"M0B0WA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kingKong\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"M0B0WA\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefin.Stepdefination.login_with_valied_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1485000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I validate login homepage",
+            "match": {
+              "location": "stepDefin.Stepdefination.i_validate_login_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hotel"
+          },
+          {
+            "name": "@Regerssion"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel booking",
+    "description": "",
+    "id": "hotel-booking",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Feature/cucumber.feature",
+    "tags": [
+      {
+        "name": "@hotel",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 3
+        }
+      }
+    ]
+  }
+]
